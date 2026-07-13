@@ -4,5 +4,5 @@ Description=Boot up animation for Drauger OS
 ModuleName=script
 
 [script]
-ImageDir=/usr/share/plymouth/themes/drauger-theme
+ImageDir=/usr/share/plymouth/themes/drauger-theme/images
 ScriptFile=/usr/share/plymouth/themes/drauger-theme/drauger-theme.script
