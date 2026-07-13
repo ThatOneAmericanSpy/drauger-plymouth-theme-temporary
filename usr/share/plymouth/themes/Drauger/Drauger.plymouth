@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Drauger
+Description= DraugerOS animation + shutdown. forked from vovamod's steam deck animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/Drauger
+ScriptFile=/usr/share/plymouth/themes/Drauger/Drauger.script
