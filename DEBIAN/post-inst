@@ -5,6 +5,7 @@ case "$1" in
 		#keep this sudo here. For some odd reason, it doesn't work without it.
 		sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth /usr/share/plymouth/themes/drauger-theme/drauger-theme.plymouth 100 --slave /usr/share/plymouth/themes/default.grub default.plymouth.grub /usr/share/plymouth/themes/drauger-theme/drauger-theme.grub
 		sudo update-alternatives --install /usr/share/plymouth/themes/text.plymouth text.plymouth /usr/share/plymouth/themes/drauger-text/drauger-text.plymouth 100
+		sudo update-alternatives --install /usr/share/plymouth/themes/neo.plymouth neo.plymouth /usr/share/plymouth/themes/drauger-neo/drauger-neo.plymouth 100 --slave /usr/share/plymouth/themes/neo.grub neo.plymouth.grub /usr/share/plymouth/themes/drauger-neo/drauger-neo.grub
 		if which update-initramfs >/dev/null 2>&1; then
 			update-initramfs -u
 		fi
