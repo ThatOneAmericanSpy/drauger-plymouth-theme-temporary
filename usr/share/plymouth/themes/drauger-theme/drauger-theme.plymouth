@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Drauger-Theme
+Description=Boot up animation for Drauger OS
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/drauger-theme
+ScriptFile=/usr/share/plymouth/themes/drauger-theme/drauger-theme.script
